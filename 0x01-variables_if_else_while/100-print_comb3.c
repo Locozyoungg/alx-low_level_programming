@@ -3,7 +3,7 @@
 * main - Entry point of the program
 *
 * Description:
-* The functn prints all possible different combos of two digts in ascending order,
+* The functn prints all possible diff combos of two digts in ascending order,
 * It ensures that the two digits are different.
 * Numbers are printed as two-digit strings.
 *
