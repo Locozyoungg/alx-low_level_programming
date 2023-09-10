@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point of the program
- *
- * Description:
- * This function prints all single-digit numbers in base 10, start frm 0 to 9,
- * followed by a newline character. It uses the putchar function to print.
- *
- * Return: 0 (Success)
- */
+* main - Entry point of the program
+*
+* Description:
+* This function prints all single-digit numbers in base 10, start frm 0 to 9,
+* followed by a newline character.
+*
+* Return: 0 (Success)
+*/
 int main(void)
 {
 int number = 0;
