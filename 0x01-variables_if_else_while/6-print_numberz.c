@@ -4,9 +4,9 @@
 * main - Entry point of the program
 *
 * Description:
-* This program prints all single-digit numbers in base 10, starting from 0 to 9,
+* The program prints single-digit numbers in base 10, starting from 0 to 9,
 * followed by a new line. It adheres to the specified requirements:
-* - It uses the `write` function to print the numbers with only two `putchar`-like calls.
+* - It uses the `write` functn to print the numbers
 * - It does not use any variables of type `char`.
 * - It includes a newline character ('\n') at the end to create a new line.
 *
