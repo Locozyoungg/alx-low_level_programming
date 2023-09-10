@@ -14,7 +14,7 @@ int number = 0;
 
 while (number <= 9)
 {
-// Use putchar to print the current digit by adding '0' to it
+
 putchar(number + '0');
 number++;
 }
