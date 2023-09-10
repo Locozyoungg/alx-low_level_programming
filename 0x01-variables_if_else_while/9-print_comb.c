@@ -3,7 +3,7 @@
 * main - Entry point of the program
 *
 * Description:
-* The functn prints all possible combinations of single-digit nmbrs in ascending order,
+* The functn prints all possible combos of singl-digit nmbrs in ascending order,
 * It uses the putchar function to print each digit and separator.
 *
 * Return: 0 (Success)
