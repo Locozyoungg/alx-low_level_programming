@@ -3,7 +3,7 @@
 * main - Entry point of the program
 *
 * Description:
-* The functn prints all possible combos of two two-dgt numbrs in ascending order,
+* The functn prints all possible combos of two two-dgt numb in ascending order,
 * It ensures that the two numbers are distinct.
 * Numbers are printed with two digits, and the combo is separated by a comma.
 *
@@ -24,7 +24,7 @@ putchar('0' + (num2 / 10));
 putchar('0' + (num2 % 10));
 
 if (num1 != 98 || num2 != 99)
-            {
+{
 putchar(',');
 putchar(' ');
 }
