@@ -3,8 +3,8 @@
 * main - Entry point of the program
 *
 * Description:
-* This function prints the lowercase alphabet, followed by the uppercase alphabet,
-* both followed by a newline character. It uses the putchar function to print each character.
+* This function prints the lowercase alphabet,then the upppercase alphabet,
+* both followed by a newline. It uses the putchar function to print.
 *
 * Return: 0 (Success)
 */
