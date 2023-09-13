@@ -122,3 +122,24 @@ last_digit = _abs(n) % 10;
 _putchar('0' + last_digit);
 return (last_digit);
 }
+
+/**
+* jack_bauer - Prints every minute of the day of Jack Bauer.
+*/
+void jack_bauer(void)
+{
+int hour, minute;
+
+for (hour = 0; hour < 24; hour++)
+{
+for (minute = 0; minute < 60; minute++)
+{
+_putchar((hour / 10) + '0');
+_putchar((hour % 10) + '0');
+_putchar(':');
+_putchar((minute / 10) + '0');
+_putchar((minute % 10) + '0');
+_putchar('\n');
+}
+}
+}
