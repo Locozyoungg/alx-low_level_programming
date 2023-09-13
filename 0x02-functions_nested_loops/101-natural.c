@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+* main - Entry point of the program
+*
+* Description: This program calculates and prints the sum of all natural
+* numbers below 1024 that are multiples of 3 or 5.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int sum = 0;
