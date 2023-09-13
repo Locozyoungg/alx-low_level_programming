@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
-* Description - Entry point of the program
+* main - Entry point of the program
+*
+* Description: This prints "_putchar" followed by a new line using
+* the custom _putchar function. Returns 0 to indicate success.
 *
 * Return: Always 0 (Success)
 */
