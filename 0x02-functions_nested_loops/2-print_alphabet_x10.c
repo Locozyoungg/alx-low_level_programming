@@ -2,7 +2,7 @@
 
 /**
 * Prints the lowercase alphabet ten times followed by a newline.
-*
+* Description.
 * This function prints the lwrcs alphabet in sequence, repeating
 * it ten times a newline character ('\n') is printed
 * The function adheres to project-specific coding standards,
