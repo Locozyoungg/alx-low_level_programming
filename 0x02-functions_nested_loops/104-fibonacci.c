@@ -13,14 +13,17 @@ int main(void)
 unsigned long int fib1 = 1;
 unsigned long int fib2 = 2;
 unsigned long int next;
-int count;
+int i;
 
-printf("%lu, %lu", fib1, fib2);
+printf("%lu", fib1);
 
-for (count = 2; count < 98; count++)
+for (i = 1; i < 98; i++)
 {
+printf(", %lu", fib2);
+
 next = fib1 + fib2;
-printf(", %lu", next);
+
+
 fib1 = fib2;
 fib2 = next;
 }
