@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+* main - Entry point
+*
+* Description: Calculates the sum of even Fibonacci numbers
+*              that do not exceed 4,000,000.
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int fib1 = 1;
