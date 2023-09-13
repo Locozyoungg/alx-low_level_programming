@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+* Prints the lowercase alphabet ten times followed by a newline.
+*
+* This function prints the lwrcs alphabet in sequence, repeating
+* it ten times a newline character ('\n') is printed
+* The function adheres to project-specific coding standards,
+*/
 void print_alphabet_x10(void)
 {
 char letter;
