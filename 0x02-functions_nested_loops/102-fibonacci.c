@@ -7,22 +7,23 @@
 */
 int main(void)
 {
-long long int fib1 = 1;  
-long long int fib2 = 2; 
-long long int next;    
-int count;              
+long int fib1 = 1;
+long int fib2 = 2;
+long int next;
+int i;
 
-printf("%lld, %lld", fib1, fib2);  
+printf("%ld, %ld", fib1, fib2);
 
-for (count = 2; count < 50; count++)
+for (i = 2; i < 50; i++)
 {
-next = fib1 + fib2;         
-printf(", %lld", next);        
-fib1 = fib2;                   
-fib2 = next;                   
+next = fib1 + fib2;
+printf(", %ld", next);
+
+fib1 = fib2;
+fib2 = next;
 }
 
-printf("\n"); 
+printf("\n");
 
-return (0);  
+return (0);
 }
