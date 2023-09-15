@@ -38,8 +38,7 @@ printf("\n");
 }
 }
 
-int main(void)
-{
-fizz_buzz();
+printf("\n");
+
 return (0);
 }
