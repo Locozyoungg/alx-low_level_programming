@@ -1,32 +1,35 @@
 #include "main.h"
 
 /**
-* _strspn - gets the length of a prefix substring
-* @s: pointer to the string to be searched
-* @accept: pointer to the string containg chartrs to match
+* *_strspn - gets the length of a prefix substring
+* @s: string to evaluate
+* @accept: string containing the list of characters to match in s
 *
-* Return: bytes in the initial segment of `s` which
-* consist only of bytes from `accept`.
+* Return: the number of bytes in the initial segment
+* of s which consist only of bytes from accept
 */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int i, j, count = 0;
-int found;
+int i, j, f, flag;
 
-for (i = 0; s[i] != '\0'; i++){
-found = 0;
+f = 0;
+
+for (i = 0; s[i] != '\0'; i++)
+{
+flag = 0;
 for (j = 0; accept[j] != '\0'; j++)
 {
 if (s[i] == accept[j])
 {
-found = 1;
-break;
+f++;
+flag = 1;
 }
 }
-if (!found)
-break;
-count++;
+if (flag == 0)
+{
+return (f);
+}
 }
 
-return count;
+return (0);
 }
