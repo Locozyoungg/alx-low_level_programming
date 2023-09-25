@@ -1,17 +1,6 @@
 #include "main.h"
 
 /**
-* _putchar - writes a character to stdout
-* @c: The character to print
-*
-* Return: On success 1. On error, -1 is returned.
-*/
-int _putchar(char c)
-{
-return write(1, &c, 1);
-}
-
-/**
 * simple_print_buffer - prints buffer in hexa
 * @buffer: the address of memory to print
 * @size: the size of the memory to print
