@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * simple_print_buffer - prints buffer in hexa
@@ -16,18 +17,16 @@ while (i < size)
 {
 if (i % 10)
 {
-_putchar(' ');
+printf(" ");
 }
 if (!(i % 10) && i)
 {
-_putchar('\n');
+printf("\n");
 }
-_putchar('0');
-_putchar('x');
-_putchar(buffer[i]);
+printf("0x%02x", buffer[i]);
 i++;
 }
-_putchar('\n');
+printf("\n");
 }
 
 /**
@@ -41,7 +40,7 @@ char buffer[98] = {0x00};
 
 simple_print_buffer(buffer, 98);
 _memset(buffer, 0x01, 95);
-_putchar('\n');
-simple_print_buffer(buffer, 98);    
+printf("-------------------------------------------------\n");
+simple_print_buffer(buffer, 98);
 return (0);
 }
