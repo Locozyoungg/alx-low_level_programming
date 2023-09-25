@@ -1,0 +1,1 @@
+# more string pointers arrays
