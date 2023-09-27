@@ -3,6 +3,9 @@
 /**
 * _putchar - Custom putchar function (provided by the task)
 * @c: The character to be printed
+*
+* Return: On success, the character written as an unsigned char
+*         (cast to an int). On error, -1 is returned.
 */
 int _putchar(char c);
 
