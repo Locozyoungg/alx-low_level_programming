@@ -12,7 +12,7 @@ int find_sqrt(int n, int guess)
 int square = guess * guess;
 
 if (square == n)
-return guess;
+return (guess);
 else if (square > n)
 return (-1);
 else
