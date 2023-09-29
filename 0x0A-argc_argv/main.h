@@ -1,7 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FILE_MAIN
+#define FILE_MAIN
 
 int _putchar(char c);
-int multiply(int num1, int num2);
+int _atoi(char *s);
 
-#endif /* MAIN_H */
+#endif
