@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
 * main - Entry point of the program
@@ -20,9 +21,22 @@ return (1);
 
 int num1 = atoi(argv[1]);
 int num2 = atoi(argv[2]);
-int result = num1 * num2;
+int result = multiply(num1, num2);
 
 printf("%d\n", result);
 
 return (0);
 }
+
+/**
+* multiply - Multiplies two integers
+* @num1: The first integer
+* @num2: The second integer
+*
+* Return: The result of the multiplication
+*/
+int multiply(int num1, int num2)
+{
+return (num1 * num2);
+}
+
