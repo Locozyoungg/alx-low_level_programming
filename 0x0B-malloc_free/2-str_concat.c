@@ -15,7 +15,7 @@ int len1 = 0, len2 = 0, i, j;
 char *concatenated;
 
 if (s1 == NULL)
-		s1 = "";
+s1 = "";
 if (s2 == NULL)
 s2 = "";
 
