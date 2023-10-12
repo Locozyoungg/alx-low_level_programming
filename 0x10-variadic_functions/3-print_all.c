@@ -3,7 +3,7 @@
 
 /**
 * print_all - Print anything based on the format specifier
-* @format: A list of types of arguments passed to the function
+* @format: A list of types of argmnts passed to the fction
 */
 void print_all(const char * const format, ...)
 {
