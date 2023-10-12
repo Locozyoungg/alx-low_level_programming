@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_all - Print anything based on the format specifier
+* print_all - Print anythg based on the fomat specifier
 * @format: A list of types of argmnts passed to the fction
 */
 void print_all(const char * const format, ...)
