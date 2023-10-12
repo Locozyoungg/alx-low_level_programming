@@ -35,8 +35,8 @@ printf("%s%s", separator, str);
 break;
 }
 
-separator = ", ";
-i++;
+separator = (", ");
+(i++);
 }
 
 va_end(args);
