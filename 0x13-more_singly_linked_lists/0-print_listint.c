@@ -12,14 +12,10 @@ size_t node_count = 0;
 
 while (h != NULL)
 {
-
-putchar('0' + h->n);
-
+printf("%d\n", h->n);
 h = h->next;
 node_count++;
 }
-
-putchar('\n');
 
 return (node_count);
 }
