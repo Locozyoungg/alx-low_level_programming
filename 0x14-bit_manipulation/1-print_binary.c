@@ -1,5 +1,5 @@
-#include <unistd.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
 * print_binary - Prints the binary representation of a number
@@ -13,3 +13,4 @@ print_binary(n >> 1);
 }
 _putchar((n & 1) ? '1' : '0');
 }
+
