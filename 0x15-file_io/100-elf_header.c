@@ -11,8 +11,9 @@
 * @ehdr: ELF header structure
 */
 void print_elf_header_info(Elf32_Ehdr ehdr) {
+int i;
 printf("  Magic:   ");
-for (int i = 0; i < EI_NIDENT; i++) {
+for (i = 0; i < EI_NIDENT; i++) {
 printf("%02x ", ehdr.e_ident[i]);
 }
 printf("\n");
