@@ -58,3 +58,4 @@ error_exit(100, "Error: Can't close fd");
 
 return (0);
 }
+
