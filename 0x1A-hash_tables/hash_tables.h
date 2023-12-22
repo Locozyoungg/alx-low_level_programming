@@ -70,8 +70,8 @@ typedef enum hash_table_operation
 hash_table_t *hash_table_create(unsigned long int size);
 unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
-hash_table_status_t hash_table_set(hash_table_t *ht, const char *key, const char *value);
 char *hash_table_get(const hash_table_t *ht, const char *key);
+hash_table_status_t hash_table_set(hash_table_t *ht, const char *key, const char *value);
 hash_table_status_t hash_table_delete(hash_table_t *ht, const char *key);
 hash_table_status_t hash_table_clear(hash_table_t *ht);
 hash_table_status_t hash_table_resize(hash_table_t *ht, unsigned long int new_size);
